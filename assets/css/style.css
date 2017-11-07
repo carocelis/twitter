@@ -1,0 +1,66 @@
+body{
+	margin: 0 auto;
+	font-family: monospace;
+}
+header{
+	width: 100%;
+	background-color: #6AD2F3;
+	text-align: center;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+section{
+	background-image: url(../img/vincent.jpg);
+	background-size: 100%;
+}
+.twittero{
+	width: 30%;
+	height: 20%;
+	background-color: white;
+	color: #41423D;
+	font-size: 120%;
+	padding: 2%;
+	margin-left: 4%;
+	display: inline-block
+}
+.quePiensas{
+	width: 40%;
+	height: 40%;
+	background-color: white;
+	display: inline-block;
+	margin-left: 5%;
+}
+textarea{
+	border: none;
+	outline: none;
+	size: 35;
+	font-size: 130%;
+	padding: 5%;
+	overflow: hidden;
+	resize: none;
+}
+hr{
+	width: 90%;
+	height: 2%;
+	background-color: #6AD2F3;
+	border: none;
+}
+button{
+	background-color: #6AD2F3;
+	color: white;
+	font-family: monospace;
+	font-size: 120%;
+	font-weight: bolder;
+	border: none;
+	padding: 2%;
+	margin: 5%;
+}
+#lineaTiempo{
+	width: 70%;
+	height: 60%;
+	margin: 5%;
+}
+#lineaTiempo div{
+	background-color: white;
+}
