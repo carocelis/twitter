@@ -6,7 +6,7 @@
         Twitter
     </title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    
 </head>
 
 <body>
@@ -25,14 +25,17 @@
             </p>
         </div>
         <div class="quePiensas">
-            <textarea id="comentario" rows="4" cols="40" placeholder="¿Qué estás pensando?"></textarea>
+            <textarea id="comentario" rows="4" cols="40" placeholder="¿Qué estás pensando?" onKeyDown="contar()" onKeyUp="contar()"></textarea>
             <hr>
             <button id="tweet" onclick="add()">Tweet</button>
+            <input value="140" id="contador">
         </div>
         <div id="lineaTiempo">
         
         </div>
     </section>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/moment.min.js"></script>
 </body>
 
 </html>

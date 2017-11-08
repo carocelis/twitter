@@ -56,6 +56,16 @@ button{
 	padding: 2%;
 	margin: 5%;
 }
+input{
+	width: 8%;
+	border: none;
+	font-family: monospace;
+	color: #0C7A9B;
+	font-weight: bold;
+	font-size: 140%;
+	margin-left: 65%;
+
+}
 #lineaTiempo{
 	width: 70%;
 	height: 60%;
